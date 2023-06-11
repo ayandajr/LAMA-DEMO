@@ -128,11 +128,11 @@ body
 }
 .odd-row
 {
-    margin-left: 175px;
+    margin-left: 10%;
 }
 .even-row
 {
-    margin-left: 915px;
+    margin-left: 65%;
 }
 .group-company
 {
@@ -363,11 +363,11 @@ body
     }
     .odd-row
     {
-        margin-left: 0px;
+        margin-left: 2%;
     }
     .even-row
     {
-        margin-left: 0px;
+        margin-left: 2%;
     }
     .group-company
     {
@@ -380,7 +380,7 @@ body
     }
     .card-row-one
     {
-        width: 350px;
+        width: 95%;
         border-radius: 30px;
         box-shadow: 15px 15px 30px #F9F9F9,
                     -15px -15px 30px #F9F9F9;
