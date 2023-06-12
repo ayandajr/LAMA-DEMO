@@ -290,8 +290,7 @@ body
         color: #ffffff;
         font-size: 12px;
         letter-spacing: 0px;
-        margin-left: 8px;
-        margin-right: 8px;
+        margin-left: 2%;
         margin-bottom: 40px;
     }
     .intro-who-we-are-btn
@@ -389,134 +388,8 @@ body
     {
         padding-top: 20px;
     }
-}
-@media only screen and (max-width: 360px)
-{
-    body 
+    .footer-quote
     {
-        margin: 0;
-        padding: 0;
-    }
-    #title
-    {
-        text-align: center;
-        margin-left: 0;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .title-company-logo
-    {
-        color: #ffffff;
-        font-size: 30px;
-        font-weight: 20px;
-        letter-spacing: 7px;
-        text-align: center;
-        margin-left: 0;
-    }
-    .title-company-bot-logo
-    {
-        line-height: 1.5;
-        margin-top: 80px;
-        margin-left: 5px;
-    }
-    .title-company-bot-logo-caption
-    {
-        color: #ffffff;
-        font-size: 12px;
-        letter-spacing: 0px;
-        margin-left: 8px;
-        margin-right: 8px;
-        margin-bottom: 40px;
-    }
-    .intro-who-we-are-btn
-    {
-        margin-left: 0px;
-        margin-top: 10px;
-    }
-    #slider
-    {
-        padding-bottom: 20px;
-    }
-    #section-one
-    {
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-    #section-two
-    {
-        margin-top: 50px;
-        margin-bottom: 50px;
-        text-align: center;
-    }
-    .section-two-h1
-    {
-        padding-top: 25px;
-        padding-bottom: 30px;
-        font-size: 20px;
-    }
-    .nav-link
-    {
-        color: #ffffff;
-        padding-top: 30px;
-        font-size: small;
-    }
-    .carousel-caption h5
-    {
-        font-size: small;
-    }
-    .carousel-indicator
-    {
-        width: 3px;
-    }
-    .intent-of-action-par
-    {
-        margin-top: 10px;
-        margin-bottom: 30px;
-    }
-    .feature-icon
-    {
-        margin-bottom: 35px;
-    }
-    .details-hr
-    {
-        border-width: 6px;
-        margin-top: 25px;
-        margin-bottom: 25px;
-    }
-    .odd-row
-    {
-        margin-left: 5px;
-    }
-    .even-row
-    {
-        margin-left: 5px;
-    }
-    .group-company
-    {
-        padding-bottom: 50px;
-    }
-    .detail-row-img
-    {
-        width: 120px;
-        height: 120px;
-    }
-    .card-row-one
-    {
-        width: 317px;
-        border-radius: 30px;
-        box-shadow: 15px 15px 30px #F9F9F9,
-                    -15px -15px 30px #F9F9F9;
-    }
-    #section-three
-    {
-        margin-top: 90px;
-        margin-bottom: 90px;
-    }
-}
-@media only screen and (max-width: 412px)
-{
-    .Offer-section
-    {
-        margin-left: 13px;
+        padding-left: 10px;
     }
 }
