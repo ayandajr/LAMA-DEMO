@@ -453,6 +453,10 @@ body
     {
         padding-left: 10px;
     }
+    .footer
+    {
+        padding-left: 2%;
+    }
 }
 @media (min-aspect-ratio: 16/9)
 {
