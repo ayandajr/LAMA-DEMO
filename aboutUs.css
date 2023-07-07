@@ -32,14 +32,14 @@ body
 }
 .nav-link
 {
-    color: #ffffff;
+    color: #73757a;
     margin-right: 15px;
     margin-left: 15px;
     padding-top: 5px;
 }
 .nav-link:hover
 {
-    color: silver;
+    color: #ffffff;
 }
 .intro-who-we-are-btn
 {
@@ -277,9 +277,13 @@ body
     }
     .nav-link
     {
-        color: #ffffff;
+        color: #73757a;
         padding-top: 30px;
         font-size: small;
+    }
+    .nav-link:hover
+    {
+        color: #ffffff;
     }
     .carousel-caption h5
     {
