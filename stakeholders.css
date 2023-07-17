@@ -1,11 +1,11 @@
-/*********************************************************TAG SECTION*******************************************************************/
+/*********************************************************TAG SECTION*****************************************************************/
 body
 {
     font-family: 'Montserrat', sans-serif;
     padding: 0;
     margin: 0;
 }
-/*********************************************************CLASS SECTION*****************************************************************/
+/*********************************************************CLASS SECTION***************************************************************/
 /*-------TITLE------*/
 .title-company-logo
 {
@@ -50,96 +50,78 @@ body
     color: black;
     transition: 1s;
 }
+/*-------Slider------*/
+.carousel-caption
+{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+/* The line of code: '.carousel-caption h5' says this: In the "carousel-caption" class theres is another tag called "h5" */
+.carousel-caption h5
+{
+    color: #fff;
+    font-size: 42px;
+}
+.img-fluid-4
+{
+    width: 100%;
+}
+.opening-home
+{
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    text-align: center;
+}
+.feature-icon
+{
+    margin-bottom: 50px;
+    color: black;
+    --fa-animation-duration: 2s
+}
+.feature-icon:hover
+{
+    color:silver
+}
+.intent-of-action-head
+{
+    padding-bottom: 10px;
+}
 .details-hr
 {
     border-style: dotted;
     border-width: 15px;
     border-top: none;
     margin-left: 45.60%;
-    margin-top: 0;
+    margin-top: 150px;
     max-width: 9%;
     min-width: 9%;
 }
-.section-one-h1
+.opening-event-one-par
 {
-    padding-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    text-align: center;
 }
-.section-one-h1-pos-head
+.opening-about-us-par
 {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    color: #9BA4B5;
+    line-height: 2;
 }
-.executive-section
+.opening-event-one-par
 {
-    margin-bottom: 100px;
-    margin-right: 215px;
+    line-height: 2;
 }
-.organisation-image
+.wesgro-building-images
 {
     width: 300px;
     height: 300px;
+    border-radius: 15px;
+    margin-bottom: 30px;
 }
-.card-row-one
-{
-    margin-left: 230px;
-    width: 300px;
-}
-.managerial-section
-{
-    margin-bottom: 100px;
-}
-.card-body
-{
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 16px;
-}
-.card-row-two
-{
-    width: 300px
-}
-.card-row-two-odd
-{
-    margin-left: 280px;
-}
-.card-row-two-even
-{
-    margin-left: 70px;
-}
-.card-section-three
-{
-    width: 540px;
-}
-.organisation-image-last
-{
-    width:300px;
-}
-.whole-card
-{
-    width: 450px;
-}
-.card-title
-{
-    margin-top: 50px
-}
-.card-section-three
-{
-    width: 288px;
-    margin-left: 40%;
-}
-.section-one-h1-pos-head-last
-{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-.products-btn
-{
-    margin-top: 175px;
-    transition: 1s;
-}
-/*--------------Contact----------------*/
 .contact
 {
     padding-top: 50px;
@@ -219,7 +201,7 @@ body
 {
     letter-spacing: 4px;
 }
-/*********************************************************ID SECTION********************************************************************/
+/*********************************************************ID SECTION******************************************************************/
 #title
 {
     height: 100vh;
@@ -234,14 +216,45 @@ body
 }
 #section-one
 {
+    margin-top: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 100px;
     text-align: center;
+}
+#intro-section
+{
     margin-top: 30px;
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 15px;
 }
-/*********************************************************MEDIA QUERIES****************************************************************/
-@media (max-width: 1028px)
+#section-one-images
+{
+    margin-top: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+#section-two
+{
+    margin-top: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+#section-two-images
+{
+    margin-top: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+/*********************************************************MEDIA QUERIES***************************************************************/
+@media only screen and (max-width: 1028px)
 {
     body 
     {
@@ -262,7 +275,7 @@ body
         font-weight: 20px;
         letter-spacing: 7px;
         text-align: center;
-        margin-left: 0;
+        margin-left: 10px;
     }
     .title-company-bot-logo
     {
@@ -276,11 +289,12 @@ body
         font-size: 12px;
         letter-spacing: 0px;
         margin-left: 2%;
+        margin-bottom: 40px;
     }
     .intro-who-we-are-btn
     {
         margin-left: 0px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .nav-link
     {
@@ -306,51 +320,67 @@ body
         margin-top: 25px;
         margin-bottom: 25px;
     }
-    .section-one-h1-pos-head
+    .first-flex-image
     {
-        padding-top: 75px;
-        padding-bottom: 75px;
-        color: #9BA4B5;
-    }
-    .section-one-h1-pos-head-last
-    {
-        padding-top: 75px;
-        padding-bottom: 75px;
-        color: #9BA4B5;
-    }
-    /* .executive-section
-    {
+        margin-left: 0px;
         margin-right: 0px;
-    } */
-    .organisation-image
-    {
-        width: 300px;
-        height: 300px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+        width: 145px;
+        height: 145px;
+        border-radius: 15px;
     }
-    .card-row-one
+    .first-flex-bot-h2
     {
-        width: 300px;
-        margin-left: 31px;
-        margin-right: 5px;
+        padding-top: 5px;
     }
-    .card-row-two
+    .opening-event-one
     {
-        width: 300px;
+        margin: 0;
     }
-    .card-row-two-odd
+    .opening-event-one-par
     {
-        margin-left: 31px;
-        margin-right: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 30px;
+        padding-bottom: 25px;
+        font-size: 12px;
+        margin-bottom: 8px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
-    .card-row-two-even
+    .FlexContainer
     {
-        margin-left: 31px;
-        margin-right: 5px;
+        height: 30vh;
     }
-    .card-section-three
+    .FlexContainer-div-img
     {
-        margin-left: 37px;
-        margin-right: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        width: 120px;
+        height: 120px;
+
+    }
+    .FlexContainer div h2
+    {
+        font-size: 10px;
+    }
+    .opening-about-us-par-last
+    {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 12px;
     }
     .footer-quote
     {
@@ -372,44 +402,9 @@ body
     }
     .title-company-bot-logo-caption
     {
+        color: #ffffff !important;
         font-size: 8px !important;
-    }
-    .organisation-image
-    {
-        width: 300px !important;
-        height: 300px !important;
-    }
-    .card-row-one
-    {
-        width: 300px !important;
-        margin-left: 0px !important;
-        margin-right: 0px !important;
-    }
-    .card-row-two
-    {
-        width: 300px !important;
-    }
-    .card-row-two-odd
-    {
-        margin-left: 0px !important;
-        margin-right: 0px !important;
-    }
-    .card-row-two-even
-    {
-        margin-left: 0px !important;
-        margin-right: 0px !important;
-    }
-    .Executive
-    {
-        padding-left: 6px;
-    }
-    .Managerial
-    {
-        padding-left: 6px;
-    }
-    .card-section-three
-    {
-        margin-left: 0px !important;
-        margin-right: 0px !important;
+        letter-spacing: 0px !important;
+        margin-left: 2% !important;
     }
 }

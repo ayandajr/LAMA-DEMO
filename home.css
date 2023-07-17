@@ -188,11 +188,11 @@ body
 .contact
 {
     padding-top: 50px;
-    background: linear-gradient(#3C4048,#3C4048);
+    background: linear-gradient(#ffffff,#ffffff);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    color: #fff;
+    color: #000;
 }
 /* The line of code: '.contact .row' says this: In the "contact" class theres is another class called "row" */
 .contact .row
@@ -234,10 +234,10 @@ body
 }
 .footer
 {
-    background: #000;
+    background: #ffffff;
     height: 100px;
     margin-top: 50px;
-    color: #fff;
+    color: #000;
     padding-top: 10px;
     letter-spacing: 2px;
 }
@@ -320,8 +320,8 @@ body
     {
         text-align: center;
         margin-left: 0;
-        padding-left: 4px;
-        padding-right: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .title-company-logo
     {
@@ -479,32 +479,29 @@ body
         height: 100%;
     }
 }
-/* @media only screen and (max-height: 412px)
+@media (max-width: 884px)
 {
-    .Home-first
+    .title-company-bot-logo
     {
-        margin-left: 20px;
+        margin-top: 100px !important;
     }
 }
-@media only screen and (max-width: 390px)
+@media (max-width: 320px)
 {
-    .Home-first
+    .title-company-bot-logo
     {
-        margin-left: 10px;
+        font-size: 160% !important;
+    }
+    .title-company-bot-logo-caption
+    {
+        font-size: 8px !important;
+    }
+    .section-video-h1
+    {
+        margin-top: 100px !important;
+    }
+    .products-btn
+    {
+        font-size: small !important;
     }
 }
-@media only screen and (max-width: 360px)
-{
-    .card-row-one
-    {
-        width: 323px;
-        border-radius: 30px;
-        box-shadow: 15px 15px 30px #F9F9F9,
-                    -15px -15px 30px #F9F9F9;
-    }
-    #section-three
-    {
-        margin-top: 90px;
-        margin-bottom: 90px;
-    }
-} */

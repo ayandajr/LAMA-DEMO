@@ -153,11 +153,11 @@ body
 .contact
 {
     padding-top: 50px;
-    background: linear-gradient(#3C4048,#3C4048);
+    background: linear-gradient(#ffffff,#ffffff);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    color: #fff;
+    color: #000;
 }
 /* The line of code: '.contact .row' says this: In the "contact" class theres is another class called "row" */
 .contact .row
@@ -199,10 +199,10 @@ body
 }
 .footer
 {
-    background: #000;
+    background: #ffffff;
     height: 100px;
     margin-top: 50px;
-    color: #fff;
+    color: #000;
     padding-top: 10px;
     letter-spacing: 2px;
 }
@@ -399,5 +399,20 @@ body
     .footer
     {
         padding-left: 2%;
+    }
+}
+@media (max-width: 320px)
+{
+    .title-company-bot-logo
+    {
+        font-size: 160% !important;
+        line-height: 1.5 !important;
+        margin-top: 40px !important;
+        margin-left: 5px !important;
+    }
+    .title-company-bot-logo-caption
+    {
+        font-size: 8px !important;
+        margin-top: 35px !important;
     }
 }
