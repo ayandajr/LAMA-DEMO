@@ -85,8 +85,16 @@ body
 {
     color:silver
 }
-.intent-of-action-head
+.intent-of-action-head-first
 {
+    font-size: large;
+    line-height: 1.5;
+    padding-bottom: 10px;
+}
+.intent-of-action-head-last
+{
+    font-size: small;
+    line-height: 1.5;
     padding-bottom: 10px;
 }
 .details-hr
@@ -130,6 +138,7 @@ body
     background-size: cover;
     background-attachment: fixed;
     color: #000;
+    font-size: small;
 }
 /* The line of code: '.contact .row' says this: In the "contact" class theres is another class called "row" */
 .contact .row
@@ -178,6 +187,10 @@ body
     padding-top: 10px;
     letter-spacing: 2px;
 }
+.footer-text
+{
+    font-size: small;
+}
 .fa-heart-o
 {
     color: red;
@@ -200,6 +213,11 @@ body
 .Watermark
 {
     letter-spacing: 4px;
+}
+.feature-box
+{
+    padding-left: 6px;
+    padding-right: 6px;
 }
 /*********************************************************ID SECTION******************************************************************/
 #title
